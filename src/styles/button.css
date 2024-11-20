@@ -1,0 +1,4 @@
+.primary-button {
+  background: var(--primary-color);
+  color: white;
+}
