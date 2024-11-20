@@ -1,0 +1,14 @@
+.image-cover {
+  object-fit: cover;
+  max-height: 360px;
+
+  min-height: 220px;
+}
+
+.description {
+  margin: 20px 0px;
+  width: 100%;
+
+  text-align: center;
+  background-color: #f9faf8;
+}

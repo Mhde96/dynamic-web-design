@@ -3,3 +3,5 @@
 
 @import url(./styles/global.css);
 @import url(./styles/button.css);
+
+@import url(./pages/home/HomePageStyles.css);
