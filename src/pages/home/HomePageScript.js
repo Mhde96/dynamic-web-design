@@ -4,6 +4,9 @@ function appendElement() {
         $(document).ready(function () {
             $('#header-placeholder').load('../../components/header/Header.html')
         })
+        $(document).ready(function () {
+            $('#footer-placeholder').load('../../components/footer/Footer.html')
+        })
     } else {
         setTimeout(() => {
             appendElement()
