@@ -2,7 +2,7 @@
   object-fit: cover;
   max-height: 360px;
 
-  min-height: 220px;
+  min-height: 300px;
 }
 
 .description {
@@ -11,4 +11,8 @@
 
   text-align: center;
   background-color: #f9faf8;
+}
+
+section{
+  margin: 20px 0;
 }
