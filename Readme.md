@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="Readme.css">
 
-<div align="center">>
+<div align="center">
     <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Logo" width="200">
      </img>
 </div>
