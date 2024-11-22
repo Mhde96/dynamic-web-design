@@ -18,7 +18,7 @@ git clone https://github.com/Mhde96/dynamic-web-design.git
 ### 2 - Run the project
 - open project with vs code
 - install live server extention 
-- **Go Love** 
+- **Go Live** 
 
 
 ## Technology used 
