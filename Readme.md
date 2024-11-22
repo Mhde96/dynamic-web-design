@@ -1,6 +1,17 @@
 <link rel="stylesheet" href="Readme.css">
 
-<div align="center">
+<head>
+<style>
+    .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    background: red;
+    }
+</style>
+</head>
+<div class="center">
     <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Logo" width="200">
      </img>
 </div>
