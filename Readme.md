@@ -7,7 +7,7 @@
 Welcome to the **Dynamic Web Design Course**! 🚀
 
 🔗 [Youtube](https://www.youtube.com) 🌐
-🔗 [Live](dynamic-web-design.vercel.app) 🌐
+🔗 [Live](https://dynamic-web-design.vercel.app) 🌐
 
 
 ## 🚀 Getting Started 🚀
