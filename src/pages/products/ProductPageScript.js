@@ -1,5 +1,5 @@
-import { products } from "../data/products.js"
-
+import { products } from "../../data/products.js"
+import { addToCart } from '../../data/cart.js'
 function appendElement() {
     if (window.jQuery && window.bootstrap && window.Popper) {
 
@@ -11,7 +11,7 @@ function appendElement() {
         })
 
 
-        $(document).ready(function(){
+        $(document).ready(function () {
             generateProductCards()
 
         })
@@ -39,6 +39,9 @@ function generateProductCards() {
                     <p class="card-text">${product.description}</p>
                     <p class="card-text font-weight-bold">$${product.price}</p>
                 </div>
+                <div class="card-footer text-center"> 
+                    <button class="btn btn-primary" onclick="addToCart(${product.id})">Add to Cart </button>
+                </div>
             </div>
         </div>
         `;
@@ -46,5 +49,7 @@ function generateProductCards() {
         container.append(card)
     })
 }
+
+window.addToCart = addToCart
 
 appendElement()
